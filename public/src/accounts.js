@@ -12,7 +12,7 @@ function getTotalNumberOfBorrows(account, books) {
   books.forEach(book => { 
     book.borrows.forEach((borrow) => { 
       if (account.id === borrow.id) {
-        count += 1;
+        count += 1
       }
     })
   })
